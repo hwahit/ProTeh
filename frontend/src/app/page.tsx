@@ -1,8 +1,25 @@
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import About from "@/components/About";
+import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
+import WhyUs from "@/components/WhyUs";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
-      <h1 className="text-4xl font-bold text-blue-900">ProTech Solutions</h1>
-      <p className="mt-4 text-gray-600">Your Technology Partner in the Digital Era</p>
+    <main>
+      <Navbar />
+      <Hero />
+      <Stats />
+      <About />
+      <Services />
+      <Pricing />
+      <WhyUs />
+      <Contact />
+      <Footer />
     </main>
   );
 }
