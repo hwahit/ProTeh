@@ -13,7 +13,7 @@ export const translations = {
     hero: {
       tagline: "Votre Partenaire Technologique à l'Ère Numérique",
       subtitle:
-        "TechPro Solutions est une société IT full-service basée à Paris, spécialisée dans le développement web & mobile, le cloud, la cybersécurité, l'IA et bien plus encore.",
+        "AgilTechs SAS est une société IT full-service basée à Paris, spécialisée dans le développement web & mobile, le cloud, la cybersécurité, l'IA et bien plus encore.",
       cta: "Découvrir nos services",
       cta2: "Nous contacter",
     },
@@ -25,7 +25,7 @@ export const translations = {
     ],
     about: {
       title: "À propos de nous",
-      text: "TechPro Solutions est une société IT full-service qui livre des solutions numériques sur mesure aux entreprises en France et en Europe. Avec plus de 10 ans d'expérience, notre équipe pluridisciplinaire d'ingénieurs, de designers et de consultants accompagne les organisations dans la transformation de leur présence numérique, l'optimisation de leurs opérations et l'accélération de leur croissance grâce à la technologie.",
+      text: "AgilTechs SAS est une société IT full-service qui livre des solutions numériques sur mesure aux entreprises en France et en Europe. Avec plus de 10 ans d'expérience, notre équipe pluridisciplinaire d'ingénieurs, de designers et de consultants accompagne les organisations dans la transformation de leur présence numérique, l'optimisation de leurs opérations et l'accélération de leur croissance grâce à la technologie.",
     },
     services: {
       title: "Nos Services",
@@ -214,7 +214,7 @@ export const translations = {
       timeline: "Délai type",
     },
     why: {
-      title: "Pourquoi choisir TechPro Solutions ?",
+      title: "Pourquoi choisir AgilTechs SAS ?",
       subtitle: "Ce qui nous différencie",
       items: [
         {
@@ -259,7 +259,7 @@ export const translations = {
     },
     footer: {
       tagline: "Votre Partenaire Technologique à l'Ère Numérique",
-      rights: "© 2026 TechPro Solutions SAS — Tous droits réservés.",
+      rights: "© 2026 AgilTechs SAS — Tous droits réservés.",
       note: "Les prix sont indicatifs et soumis à confirmation du périmètre.",
     },
   },
@@ -276,7 +276,7 @@ export const translations = {
     hero: {
       tagline: "Your Technology Partner in the Digital Era",
       subtitle:
-        "TechPro Solutions is a full-service IT firm based in Paris, specialised in web & mobile development, cloud, cybersecurity, AI, and much more.",
+        "AgilTechs SAS is a full-service IT firm based in Paris, specialised in web & mobile development, cloud, cybersecurity, AI, and much more.",
       cta: "Explore our services",
       cta2: "Get in touch",
     },
@@ -288,7 +288,7 @@ export const translations = {
     ],
     about: {
       title: "About Us",
-      text: "TechPro Solutions is a full-service IT firm delivering custom digital solutions to businesses across France and Europe. With over 10 years of experience, our multidisciplinary team of engineers, designers, and consultants partners with organisations to transform their digital presence, streamline operations, and accelerate growth through technology.",
+      text: "AgilTechs SAS is a full-service IT firm delivering custom digital solutions to businesses across France and Europe. With over 10 years of experience, our multidisciplinary team of engineers, designers, and consultants partners with organisations to transform their digital presence, streamline operations, and accelerate growth through technology.",
     },
     services: {
       title: "Our Services",
@@ -477,7 +477,7 @@ export const translations = {
       timeline: "Typical Timeline",
     },
     why: {
-      title: "Why Choose TechPro Solutions?",
+      title: "Why Choose AgilTechs SAS?",
       subtitle: "What sets us apart",
       items: [
         {
@@ -522,7 +522,7 @@ export const translations = {
     },
     footer: {
       tagline: "Your Technology Partner in the Digital Era",
-      rights: "© 2026 TechPro Solutions SAS — All rights reserved.",
+      rights: "© 2026 AgilTechs SAS — All rights reserved.",
       note: "Prices are indicative and subject to scope confirmation.",
     },
   },
@@ -539,7 +539,7 @@ export const translations = {
     hero: {
       tagline: "شريكك التكنولوجي في العصر الرقمي",
       subtitle:
-        "TechPro Solutions شركة تقنية متكاملة مقرّها باريس، متخصصة في تطوير المواقع والتطبيقات، والحوسبة السحابية، والأمن السيبراني، والذكاء الاصطناعي وأكثر.",
+        "AgilTechs SAS شركة تقنية متكاملة مقرّها باريس، متخصصة في تطوير المواقع والتطبيقات، والحوسبة السحابية، والأمن السيبراني، والذكاء الاصطناعي وأكثر.",
       cta: "اكتشف خدماتنا",
       cta2: "تواصل معنا",
     },
@@ -551,7 +551,7 @@ export const translations = {
     ],
     about: {
       title: "من نحن",
-      text: "TechPro Solutions شركة تقنية متكاملة تقدم حلولاً رقمية مخصصة للشركات في فرنسا وأوروبا. بفضل أكثر من 10 سنوات من الخبرة، يعمل فريقنا متعدد التخصصات من المهندسين والمصممين والمستشارين على تحويل الحضور الرقمي لمؤسساتنا العملاء وتحسين عملياتها وتسريع نموها من خلال التكنولوجيا.",
+      text: "AgilTechs SAS شركة تقنية متكاملة تقدم حلولاً رقمية مخصصة للشركات في فرنسا وأوروبا. بفضل أكثر من 10 سنوات من الخبرة، يعمل فريقنا متعدد التخصصات من المهندسين والمصممين والمستشارين على تحويل الحضور الرقمي لمؤسساتنا العملاء وتحسين عملياتها وتسريع نموها من خلال التكنولوجيا.",
     },
     services: {
       title: "خدماتنا",
@@ -740,7 +740,7 @@ export const translations = {
       timeline: "المدة الزمنية",
     },
     why: {
-      title: "لماذا تختار TechPro Solutions؟",
+      title: "لماذا تختار AgilTechs SAS؟",
       subtitle: "ما يميزنا عن غيرنا",
       items: [
         {
@@ -785,7 +785,7 @@ export const translations = {
     },
     footer: {
       tagline: "شريكك التكنولوجي في العصر الرقمي",
-      rights: "© 2026 TechPro Solutions SAS — جميع الحقوق محفوظة.",
+      rights: "© 2026 AgilTechs SAS — جميع الحقوق محفوظة.",
       note: "الأسعار استرشادية وخاضعة لتأكيد النطاق.",
     },
   },

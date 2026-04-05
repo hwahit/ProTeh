@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
           <span className="text-gold font-bold text-xl tracking-tight">
-            TECHPRO
+            AGILTECHS
           </span>
           <span className="text-white font-light text-xl">SOLUTIONS</span>
         </a>

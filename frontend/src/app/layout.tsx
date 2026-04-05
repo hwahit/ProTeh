@@ -3,9 +3,9 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "TechPro Solutions — IT Services",
+  title: "AgilTechs SAS — IT Services",
   description:
-    "TechPro Solutions — votre partenaire technologique. Web, Mobile, Cloud, Cybersécurité, IA, Traduction, Formation. Paris, France.",
+    "AgilTechs SAS — votre partenaire technologique. Web, Mobile, Cloud, Cybersécurité, IA, Traduction, Formation. Paris, France.",
 };
 
 export default function RootLayout({

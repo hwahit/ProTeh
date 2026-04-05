@@ -59,7 +59,7 @@ export default function Contact() {
               style={{ transform: "translate(30%, 30%)" }}
             />
             <h3 className="text-gold font-semibold text-sm uppercase tracking-widest mb-2">
-              TechPro Solutions
+              AgilTechs SAS
             </h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3">

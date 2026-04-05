@@ -27,7 +27,7 @@ export default function Hero() {
             Paris — France
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            TECHPRO{" "}
+            AGILTECHS{" "}
             <span className="text-gold">SOLUTIONS</span>
           </h1>
           <p className="text-xl sm:text-2xl font-light text-white/90 mb-4">

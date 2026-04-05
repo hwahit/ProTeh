@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-gold font-bold text-lg">TECHPRO</span>
+            <span className="text-gold font-bold text-lg">AGILTECHS</span>
             <span className="text-white font-light text-lg">SOLUTIONS</span>
           </div>
           <p className="text-white/40 text-xs text-center">
