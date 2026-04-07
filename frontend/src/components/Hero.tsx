@@ -8,75 +8,92 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-navy"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-dark"
     >
-      {/* Diagonal gold accent */}
+      {/* Background grid */}
       <div
-        className="absolute bottom-0 left-0 right-0 h-32 bg-gold opacity-90"
-        style={{ clipPath: "polygon(0 60%, 100% 0%, 100% 100%, 0% 100%)" }}
-      />
-      <div
-        className="absolute bottom-0 left-0 right-0 h-32 bg-navy-light opacity-60"
-        style={{ clipPath: "polygon(0 80%, 100% 20%, 100% 100%, 0% 100%)" }}
+        className="absolute inset-0 opacity-[0.04]"
+        style={{
+          backgroundImage:
+            "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
+        }}
       />
 
+      {/* Glow blobs */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gold/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-teal/10 rounded-full blur-3xl pointer-events-none" />
+
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-40">
-        <div className="max-w-3xl">
-          <div className="inline-block bg-gold/20 border border-gold/40 text-gold text-xs font-semibold px-4 py-1.5 rounded-full mb-6 uppercase tracking-widest">
-            Paris — France
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-20">
+        <div className="max-w-4xl">
+          {/* Badge */}
+          <div
+            data-reveal
+            className="inline-flex items-center gap-2 bg-dark-card border border-dark-border text-muted text-xs font-semibold px-4 py-2 rounded-full mb-8"
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-teal animate-pulse" />
+            Paris — France · IT Services Catalog 2026
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            AGILTECHS{" "}
-            <span className="text-gold">SOLUTIONS</span>
+
+          {/* Heading */}
+          <h1
+            data-reveal
+            className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6"
+          >
+            <span className="gradient-text">AgilTechs</span>
+            <br />
+            <span className="text-white/90">SAS</span>
           </h1>
-          <p className="text-xl sm:text-2xl font-light text-white/90 mb-4">
+
+          {/* Tagline */}
+          <p
+            data-reveal
+            className="text-xl sm:text-2xl font-light text-white/70 mb-4 max-w-2xl"
+          >
             {t.hero.tagline}
           </p>
-          <p className="text-base text-white/65 max-w-xl mb-10 leading-relaxed">
+
+          <p
+            data-reveal
+            className="text-base text-muted max-w-xl mb-10 leading-relaxed"
+          >
             {t.hero.subtitle}
           </p>
-          <div className="flex flex-wrap gap-4">
+
+          {/* CTAs */}
+          <div data-reveal className="flex flex-wrap gap-4">
             <a
               href="#services"
-              className="bg-gold hover:bg-gold-light text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 text-sm"
+              className="bg-gold hover:bg-gold-light text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-200 text-sm glow-gold"
             >
               {t.hero.cta}
             </a>
             <a
               href="#contact"
-              className="border border-white/40 hover:border-white text-white font-semibold px-6 py-3 rounded-full transition-colors duration-200 text-sm"
+              className="border border-dark-border hover:border-white/40 text-white/70 hover:text-white font-semibold px-7 py-3.5 rounded-full transition-all duration-200 text-sm"
             >
               {t.hero.cta2}
             </a>
           </div>
         </div>
-      </div>
 
-      {/* Service tags */}
-      <div className="absolute bottom-36 left-0 right-0 z-10 hidden lg:block">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap gap-2">
-            {[
-              "Web Development",
-              "Mobile Apps",
-              "Cloud & DevOps",
-              "UI/UX Design",
-              "Cybersecurity",
-              "AI & Automation",
-              "Translation",
-              "Training",
-            ].map((tag) => (
-              <span
-                key={tag}
-                className="bg-white/10 text-white/60 text-xs px-3 py-1 rounded-full border border-white/10"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
+        {/* Stats row */}
+        <div
+          data-reveal-stagger
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-20 max-w-2xl"
+        >
+          {t.stats.map((s, i) => (
+            <div key={i} className="border-l-2 border-gold/40 pl-4">
+              <div className="text-2xl font-bold text-white">{s.value}</div>
+              <div className="text-xs text-muted mt-0.5">{s.label}</div>
+            </div>
+          ))}
         </div>
       </div>
+
+      {/* Bottom fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-dark to-transparent" />
     </section>
   );
 }
